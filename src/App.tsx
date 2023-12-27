@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 import ButtonComponent from "./components/ButtonComponent";
 import PaperComponent from "./components/PaperComponent";
 import TypographyComponent from "./components/TypographyComponent";
+import BoxComponent from "./components/BoxComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       <ButtonComponent></ButtonComponent>
       <PaperComponent></PaperComponent>
       <TypographyComponent></TypographyComponent>
+      <BoxComponent></BoxComponent>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function TypographyComponent() {
       <Box
         sx={{
           backgroundColor: "#f4a261",
-          minHeight: "100vh",
+          minHeight: "70vh",
         }}
       >
         <Stack sx={{ width: "200px", margin: "auto" }} spacing={1}>

@@ -9,7 +9,7 @@ export default function ButtonComponent() {
     <Box
       sx={{
         backgroundColor: "#BCF4F5",
-        minHeight: "100vh",
+        minHeight: "80vh",
       }}
     >
       <Stack sx={{ width: "200px", margin: "auto" }} spacing={1}>
