@@ -1,5 +1,6 @@
-import { Paper, Box } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
+import Paper from "@mui/material/Paper";
 
 export default function PaperComponent() {
   return (

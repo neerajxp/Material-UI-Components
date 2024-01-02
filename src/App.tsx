@@ -6,6 +6,7 @@ import ButtonComponent from "./components/ButtonComponent";
 import PaperComponent from "./components/PaperComponent";
 import TypographyComponent from "./components/TypographyComponent";
 import BoxComponent from "./components/BoxComponent";
+import DividerComponent from "./components/DividerComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,9 +14,11 @@ function App() {
   return (
     <>
       <ButtonComponent></ButtonComponent>
-      <PaperComponent></PaperComponent>
+
       <TypographyComponent></TypographyComponent>
       <BoxComponent></BoxComponent>
+      <DividerComponent></DividerComponent>
+      <PaperComponent></PaperComponent>
     </>
   );
 }
